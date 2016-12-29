@@ -1,0 +1,24 @@
+{
+  "name": "hubot-chiwawa",
+  "version": "0.0.1",
+  "description": "A hubot adapter for Chiwawa",
+  "main": "./src/chiwawa.coffee",
+  "keywords": [
+    "hubot",
+    "adapter",
+    "chiwawa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stakahashi-da/hubot-chiwawa.git"
+  },
+  "author": "dreamarts",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": ~1.12.2,
+    "hubot": ~2.19.0
+  },
+  "engines": {
+    "node":">=0.10.x"
+  }
+}
