@@ -15,8 +15,8 @@
   "author": "dreamarts",
   "license": "MIT",
   "devDependencies": {
-    "coffee-script": ~1.12.2,
-    "hubot": ~2.19.0
+    "coffee-script": "~1.12.2",
+    "hubot": "~2.19.0"
   },
   "engines": {
     "node":">=0.10.x"
