@@ -30,7 +30,7 @@ class Chiwawa extends Adapter
       unless message.createdBy is options.botid
         switch message.type
           when "text"
-            @robot.logger.debug "handle text message"
+            @robot.logger.debug "handle text message [#{message.messageId} - #{message.text}]"
             @receive new TextMessage user, message.text, message.messageId
           when "image"
             @receive new TextMessage user, "", message.messageId
